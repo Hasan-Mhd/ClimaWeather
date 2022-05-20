@@ -36,7 +36,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     getLocation();
     return const Scaffold(
       body: Center(
-        child: SpinKitDoubleBounce(
+        child: SpinKitDancingSquare(
           color: Colors.white,
           size: 100.0,
         ),
